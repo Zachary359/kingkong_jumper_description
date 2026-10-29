@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<robot name="jumper" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:include filename="$(find kingkong_jumper_description)/urdf/jumper.urdf"/>
+</robot>
