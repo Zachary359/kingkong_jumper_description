@@ -19,14 +19,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/base_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_black">
         <color rgba="0 0 0 1" />
       </material>
     </visual>
     <collision name="base_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/base_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/base_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -41,14 +41,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/upper_shell_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_red">
         <color rgba="0.85 0.08 0.05 1" />
       </material>
     </visual>
     <collision name="upper_shell_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/upper_shell_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/upper_shell_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -69,14 +69,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/display_module_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_black">
         <color rgba="0 0 0 1" />
       </material>
     </visual>
     <collision name="display_module_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/display_module_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/display_module_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -97,14 +97,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/tof_sensor_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_black">
         <color rgba="0 0 0 1" />
       </material>
     </visual>
     <collision name="tof_sensor_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/tof_sensor_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/tof_sensor_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -125,14 +125,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/camera_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_black">
         <color rgba="0 0 0 1" />
       </material>
     </visual>
     <collision name="camera_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/camera_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/camera_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -153,14 +153,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/LF_shoulder_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_red">
         <color rgba="0.85 0.08 0.05 1" />
       </material>
     </visual>
     <collision name="LF_shoulder_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/LF_shoulder_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/LF_shoulder_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -182,14 +182,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/LF_upper_arm_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_red">
         <color rgba="0.85 0.08 0.05 1" />
       </material>
     </visual>
     <collision name="LF_upper_arm_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/LF_upper_arm_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/LF_upper_arm_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -211,14 +211,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/LF_forearm_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_silver">
         <color rgba="0.68 0.70 0.72 1" />
       </material>
     </visual>
     <collision name="LF_forearm_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/LF_forearm_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/LF_forearm_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -240,14 +240,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/LF_palm_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_red">
         <color rgba="0.85 0.08 0.05 1" />
       </material>
     </visual>
     <collision name="LF_palm_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/LF_palm_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/LF_palm_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -269,14 +269,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/LF_palm_pad_f_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_pad">
         <color rgba="0.816 0.820 0.804 1" />
       </material>
     </visual>
     <collision name="LF_palm_pad_f_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/LF_palm_pad_f_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/LF_palm_pad_f_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -297,7 +297,7 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/LF_palm_pad_b_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_pad">
         <color rgba="0.816 0.820 0.804 1" />
       </material>
     </visual>
@@ -325,14 +325,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/LF_finger_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_red">
         <color rgba="0.85 0.08 0.05 1" />
       </material>
     </visual>
     <collision name="LF_finger_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/LF_finger_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/LF_finger_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -354,14 +354,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/LF_finger_tip_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_pad">
         <color rgba="0.816 0.820 0.804 1" />
       </material>
     </visual>
     <collision name="LF_finger_tip_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/LF_finger_tip_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/LF_finger_tip_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -382,14 +382,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/LF_finger_grip_insert_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_pad">
         <color rgba="0.816 0.820 0.804 1" />
       </material>
     </visual>
     <collision name="LF_finger_grip_insert_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/LF_finger_grip_insert_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/LF_finger_grip_insert_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -410,14 +410,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/LF_palm_grip_insert_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_pad">
         <color rgba="0.816 0.820 0.804 1" />
       </material>
     </visual>
     <collision name="LF_palm_grip_insert_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/LF_palm_grip_insert_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/LF_palm_grip_insert_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -438,14 +438,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/RF_shoulder_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_red">
         <color rgba="0.85 0.08 0.05 1" />
       </material>
     </visual>
     <collision name="RF_shoulder_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/RF_shoulder_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/RF_shoulder_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -467,14 +467,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/RF_upper_arm_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_red">
         <color rgba="0.85 0.08 0.05 1" />
       </material>
     </visual>
     <collision name="RF_upper_arm_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/RF_upper_arm_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/RF_upper_arm_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -496,14 +496,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/RF_forearm_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_silver">
         <color rgba="0.68 0.70 0.72 1" />
       </material>
     </visual>
     <collision name="RF_forearm_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/RF_forearm_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/RF_forearm_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -525,14 +525,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/RF_palm_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_red">
         <color rgba="0.85 0.08 0.05 1" />
       </material>
     </visual>
     <collision name="RF_palm_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/RF_palm_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/RF_palm_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -554,14 +554,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/RF_palm_pad_f_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_pad">
         <color rgba="0.816 0.820 0.804 1" />
       </material>
     </visual>
     <collision name="RF_palm_pad_f_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/RF_palm_pad_f_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/RF_palm_pad_f_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -582,7 +582,7 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/RF_palm_pad_b_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_pad">
         <color rgba="0.816 0.820 0.804 1" />
       </material>
     </visual>
@@ -610,14 +610,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/RF_palm_grip_insert_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_pad">
         <color rgba="0.816 0.820 0.804 1" />
       </material>
     </visual>
     <collision name="RF_palm_grip_insert_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/RF_palm_grip_insert_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/RF_palm_grip_insert_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -638,14 +638,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/RF_finger_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_red">
         <color rgba="0.85 0.08 0.05 1" />
       </material>
     </visual>
     <collision name="RF_finger_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/RF_finger_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/RF_finger_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -667,14 +667,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/RF_finger_grip_insert_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_pad">
         <color rgba="0.816 0.820 0.804 1" />
       </material>
     </visual>
     <collision name="RF_finger_grip_insert_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/RF_finger_grip_insert_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/RF_finger_grip_insert_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -695,14 +695,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/RF_finger_tip_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_pad">
         <color rgba="0.816 0.820 0.804 1" />
       </material>
     </visual>
     <collision name="RF_finger_tip_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/RF_finger_tip_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/RF_finger_tip_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -723,14 +723,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/LM_hip_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_red">
         <color rgba="0.85 0.08 0.05 1" />
       </material>
     </visual>
     <collision name="LM_hip_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/LM_hip_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/LM_hip_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -752,14 +752,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/LM_thigh_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_silver">
         <color rgba="0.68 0.70 0.72 1" />
       </material>
     </visual>
     <collision name="LM_thigh_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/LM_thigh_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/LM_thigh_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -781,14 +781,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/LM_calf_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_red">
         <color rgba="0.85 0.08 0.05 1" />
       </material>
     </visual>
     <collision name="LM_calf_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/LM_calf_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/LM_calf_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -810,7 +810,7 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/LM_foot_tip_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_pad">
         <color rgba="0.816 0.820 0.804 1" />
       </material>
     </visual>
@@ -838,14 +838,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/RM_hip_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_red">
         <color rgba="0.85 0.08 0.05 1" />
       </material>
     </visual>
     <collision name="RM_hip_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/RM_hip_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/RM_hip_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -867,14 +867,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/RM_thigh_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_silver">
         <color rgba="0.68 0.70 0.72 1" />
       </material>
     </visual>
     <collision name="RM_thigh_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/RM_thigh_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/RM_thigh_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -896,14 +896,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/RM_calf_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_red">
         <color rgba="0.85 0.08 0.05 1" />
       </material>
     </visual>
     <collision name="RM_calf_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/RM_calf_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/RM_calf_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -925,7 +925,7 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/RM_foot_tip_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_pad">
         <color rgba="0.816 0.820 0.804 1" />
       </material>
     </visual>
@@ -953,14 +953,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/LR_hip_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_red">
         <color rgba="0.85 0.08 0.05 1" />
       </material>
     </visual>
     <collision name="LR_hip_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/LR_hip_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/LR_hip_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -982,14 +982,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/LR_thigh_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_silver">
         <color rgba="0.68 0.70 0.72 1" />
       </material>
     </visual>
     <collision name="LR_thigh_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/LR_thigh_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/LR_thigh_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -1011,14 +1011,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/LR_calf_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_red">
         <color rgba="0.85 0.08 0.05 1" />
       </material>
     </visual>
     <collision name="LR_calf_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/LR_calf_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/LR_calf_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -1040,7 +1040,7 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/LR_foot_tip_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_pad">
         <color rgba="0.816 0.820 0.804 1" />
       </material>
     </visual>
@@ -1068,14 +1068,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/RR_hip_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_red">
         <color rgba="0.85 0.08 0.05 1" />
       </material>
     </visual>
     <collision name="RR_hip_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/RR_hip_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/RR_hip_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -1097,14 +1097,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/RR_thigh_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_silver">
         <color rgba="0.68 0.70 0.72 1" />
       </material>
     </visual>
     <collision name="RR_thigh_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/RR_thigh_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/RR_thigh_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -1126,14 +1126,14 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/RR_calf_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_red">
         <color rgba="0.85 0.08 0.05 1" />
       </material>
     </visual>
     <collision name="RR_calf_link_collision">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://kingkong_jumper_description/meshes/visual/RR_calf_link.stl" />
+        <mesh filename="package://kingkong_jumper_description/meshes/collision/RR_calf_link_col.STL" />
       </geometry>
     </collision>
   </link>
@@ -1155,7 +1155,7 @@
       <geometry>
         <mesh filename="package://kingkong_jumper_description/meshes/visual/RR_foot_tip_link.stl" />
       </geometry>
-      <material name="">
+      <material name="jumper_pad">
         <color rgba="0.816 0.820 0.804 1" />
       </material>
     </visual>

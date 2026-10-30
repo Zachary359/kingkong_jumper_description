@@ -16,14 +16,22 @@ Limits corrected to match the training model: LM joint0 lower -0.75 rad,
 RF joint4 lower -0.1 rad, and RF joint2 upper 2.2 rad.
 The LF palm mass attribute has its trailing whitespace removed.
 Joint ordering, transforms, inertias, colors, and mesh bytes are preserved.
-Visual and collision geometry use the same original STL meshes.
+Visual geometry retains all 41 original STL meshes. Collision geometry matches
+the mesh selection in the source training model `assets/jumper/jumper.xml`:
+35 non-contact links use the existing simplified convex hull STLs, copied without
+modification into `meshes/collision/`. The six contact links retain their original
+visual STLs: `LF_palm_pad_b_link`, `RF_palm_pad_b_link`, `LM_foot_tip_link`,
+`RM_foot_tip_link`, `LR_foot_tip_link`, and `RR_foot_tip_link`.
+Collision origins, scales, and all inertial properties are unchanged.
+This matches collision mesh selection, not cross-engine contact behavior.
+In RViz, enable RobotModel > Collision Enabled and disable Visual Enabled to inspect.
 The upstream NOTICE is retained for attribution; its repository-wide inventory
 also mentions components that are not included in this model-only package.
 
 ## Build and view
 
 ```bash
-cd /home/fiveages/dev_ws/fa-deploy-ws
+cd ？
 source /opt/ros/jazzy/setup.bash
 colcon build --packages-select kingkong_jumper_description --symlink-install
 source install/setup.bash
