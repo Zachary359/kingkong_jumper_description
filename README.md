@@ -35,7 +35,7 @@ cd ？
 source /opt/ros/jazzy/setup.bash
 colcon build --packages-select kingkong_jumper_description --symlink-install
 source install/setup.bash
-ros2 launch robot_common_launch visualize.launch.py robot:=kingkong_jumper
+ros2 launch kingkong_jumper_description visualize.launch.py
 ```
 
 The visualization command requires the workspace's `robot_common_launch` package.
@@ -46,3 +46,13 @@ The common model entry point is `xacro/robot.xacro`.
 This package provides the robot model only. It does not configure ros2_control,
 a hardware driver, OCS2 locomotion, or reinforcement-learning inference.
 A successful model load does not validate contact dynamics or real hardware.
+
+## Reference-pose visualization
+
+The package-specific launch loads `config/home.json` as the joint GUI's `zeros`
+parameters. All 22 movable joints start at the reference pose (radians), and
+sliders remain available. RViz uses `base_link` as the fixed frame. This displays
+kinematics only; it does not validate standing under gravity. The pose is a local
+snapshot of the Jumper training HOME, not a dependency on a training checkout.
+The existing common `robot:=kingkong_jumper` launch remains available, but does
+not automatically load this package-specific HOME configuration.
